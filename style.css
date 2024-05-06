@@ -1,0 +1,158 @@
+.icon {
+    font-size: 4rem;
+    color: dodgerblue;
+}
+
+/* about */
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+/* Menu */
+#menu .nav-pills .nav-link{
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.menu-item .stars{
+    color: #F58d17
+}
+
+.shadow-on-hover{
+    transition: all 0.2s;
+}
+
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+}
+
+/* Features */
+#features{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.feature{
+    border: 2px solid rgba(255, 255, 255, 0.2)
+}
+
+.feature .feature-icon{
+    width: 80px;
+    height: 80px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 28px;
+    display: inline-grid;
+    align-content: center;
+    text-align: center;
+}
+
+/* Reviews */
+#reviews{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://a.cdn-hotels.com/gdcs/production120/d64/a385ef0f-98ee-4a06-bbe9-d3d34d4c0ec6.jpg?impolicy=fcrop&w=1600&h=1066&q=medium);
+}
+
+.review img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.review .quote-icon{
+    /* width: 80px;
+    height: 80px; */
+    color: dodgerblue;
+    font-size: 80px;
+    line-height: 1;
+    display: inline;
+    align-content: center;
+    text-align: center;
+}
+
+.review .stars{
+    color: #F58d17
+}
+
+/* Reservation */
+#reservation .form-control{
+    border-radius: 0%;
+}
+
+#reservation input.form-control{
+    border-radius: 0%;
+}
+
+.post{
+    position: relative;
+    overflow: hidden;
+}
+
+.post .post-btn{
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 28px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.post img{
+    transition: all 0.2s;
+    /* width: auto; */
+    height: 507px;
+}
+
+.post:hover img{
+    transform: scale(1.2);
+}
+
+.post:hover .post-btn{
+    opacity: 1;
+}
+
+.blog-post img{
+    width: 40%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px){
+    .blog-post{
+        flex-direction: column;
+    }
+    .blog-post img{
+        width: 100%;
+    }
+}
+
+/* Footer */
+footer{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-top{
+    margin-bottom: 30px;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer a{
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.footer-bottom{
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.75);
+}
